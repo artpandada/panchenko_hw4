@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+}
+.wrapper {
+    margin:0 auto;
+    width: 200px;
+    padding: 50px;
+
+}
+.tree {
+    width: 0;
+    height: 0;
+    margin:0 auto;
+}
+.first {
+
+    border-left:40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid green;
+}
+.second{
+    margin-top:-10px;
+    border-left:60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 80px solid green;
+}
+.last{
+    margin-top:-20px;
+    border-left:80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 100px solid green;
+}
+.foot{
+    width: 30px;
+    height: 40px;
+    background-color: saddlebrown;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    color: gray;
+}
